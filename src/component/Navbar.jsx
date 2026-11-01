@@ -10,6 +10,8 @@ function Navbar() {
         <Link to='/packagespage' className='link'>Packages</Link>
         <Link to='/installationspage' className='link'>Installations</Link>
         <Link to='/contactpage' className='link'>Contact</Link>
+        <Link to='/registerpage' className='link'>Register</Link>
+        <Link to='/loginpage' className='link'>Login</Link>
     </nav>
   )
 }

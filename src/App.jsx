@@ -12,6 +12,8 @@ import PackagesPage from './pages/packages.jsx'
 import InstallationPage from './pages/installation.jsx'
 import NotFoundPage from './pages/notFound.jsx'
 import HomePage from './pages/home'
+import LoginPage from './pages/login.jsx'
+import RegisterPage from './pages/register.jsx'
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
           <Route path='/packages' element={<PackagesPage />} />
           <Route path='/installations' element={<InstallationPage />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/register' element={<RegisterPage />} />
+          <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<NotFoundPage />} />
        </Routes>
     </main>
